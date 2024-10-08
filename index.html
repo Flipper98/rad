@@ -5,16 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Платформа для воплощения идей</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #000;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Воплощаем ваши идеи в реальность</h1>
+        <div class="logo">RubiSty</div>
         <nav>
             <ul>
                 <li><a href="#home">Главная</a></li>
-                <li><a href="#gallery">Галерея проектов</a></li>
-                <li><a href="#how-it-works">Как это работает</a></li>
+                <li><a href="#gallery">Проекты</a></li>
                 <li><a href="#about-us">О нас</a></li>
+                <li><a href="#info">Информация</a></li>
             </ul>
         </nav>
     </header>
